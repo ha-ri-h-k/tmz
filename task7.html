@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="frame">
+    <div class="main">
+    <div>
+        <p class="header pz">Header</p>
+            <div class="sub">
+                <p class="nav pz">Nav</p>
+                <div class="dbody">
+                    <p class="content pz">Content</p>
+                    <p class="footer pz">Footer</p>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height:800px;
+    }
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: red;
+    }
+    .content{
+        
+        height: 200px;
+        background-color: green;
+        width: 100;
+    
+    }
+    .footer{
+        background-color: aqua;
+        width: 100%;
+        height: 30px;
+    }
+    .nav{
+        background-color: yellow;
+        width: 30%;
+        height: 230px;
+    }
+    .dbody{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        width: 70%;
+    }
+    .sub{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        width: 100%;
+        align-items: end;
+    }
+   .frame{
+        position: relative;
+        width: 1000px;
+        height: 1400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+   }
+   .pz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: large;
+    font-family: monospace;
+}
+
+</style>
+</html>

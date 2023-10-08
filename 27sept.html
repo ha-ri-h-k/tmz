@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./action.html">
+        <div class="top">
+            <h1 class="head">Add Agency</h1>
+            <p>Enter the folowing details</p>
+        </div>
+        <div class="details">
+        <label>Agency Name</label>
+        <input type="text" placeholder="Please enter Agency name">
+        <label >Email</label>
+        <input type="email" placeholder="Enter your username">
+        <label>Phone</label>
+        <input type="number" placeholder="Enter your phone no">
+        <label>Enter Username</label>
+        <input type="text" placeholder="Enter your username">
+        <label>Enter password</label>
+        <input type="password" placeholder="Enter your password">
+        <div class="button"><input class="btn" type="submit" value="ADD AGENCY" ></div>
+        </div>
+    </form>
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        font-family: sans-serif;
+        
+    }
+    form{
+        display:flex;
+        flex-direction: column;
+        width: 600px;
+        height: 600px;
+        background-color: lightblue;
+        margin-top:150px;
+        padding: 15px;
+        gap: 20px;
+        border-radius: 10px;
+
+
+    }
+    .top{
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        width: 60%;
+        height: 30px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        padding-left: 10px;
+
+    }
+    .btn{
+        background-color: blue;
+        color: white;
+        width: 30%;
+        border-color: rgb(41, 41, 151);
+        height: 50px;
+        margin-top: 50px;
+        font-weight: 700;
+
+    
+    }
+    .details{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+</html>

@@ -1,0 +1,12 @@
+.action{
+    width: 50%;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 20px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,123 @@
+.logo{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    width: 100%;
+}
+body{ 
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    }
+.image{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+}
+.head{
+    font-size:30px;
+}
+.dz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 15px;
+}
+.p1{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border: 1px solid white;
+}
+.logo_png{
+    width: 200px;
+    height: 100px;
+}
+@media screen and (max-width:480px) 
+{
+    *{margin: 0;
+    padding: 0;}
+    .logo{
+        display: flex;
+        align-items:flex-start;
+        justify-content:flex-start;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    body{ 
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: sans-serif;
+        width: 100%;
+        flex-wrap: wrap;
+        }
+    .image{
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+    }
+    .profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .head{
+        font-size:30px;
+    }
+    .dz{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .p1{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    
+        border: 1px solid white;
+    }
+    .logo_png{
+        width: 100px;
+        height: 50px;
+    }
+    
+}

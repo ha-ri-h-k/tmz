@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphaott</title>
+</head>
+<body>
+    <div class="main">
+        <div class="logo"><img class="logo_png" src="./alphaott.png"></div>
+        <div class="head">
+        <h2>Who's watching?</h2>
+        </div>
+        <div class="profile">
+            <div class="dz"><img class="image" src="./001.avif"><p>Nick</p></div>
+            <div class="dz"><img class="image" src="./002.avif"><p>Ilias</p></div>
+            <div class="dz"> <img class="image" src="./004.jpg"><p>Denis</p></div>
+            <div class="dz"><img class="image" src="./003.webp"><p>Theo</p></div>
+            <div class="dz"><img class="image add" src="./addgray.png"><p>Add Profile</p></div>           
+        </div>
+        </div>
+</body>
+<style>
+.logo{ 
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    width: 100%;
+}
+body{ 
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    }
+.image{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+}
+.head{
+    font-size:30px;
+}
+.dz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo_png{
+margin-top: 10px;
+margin-left: 10px;
+width: 300px;
+ height: 40px;
+}
+</style>
+</html>

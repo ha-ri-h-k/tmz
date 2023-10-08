@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    width: 100%;
+}
+.image{
+    width: 200px;
+    
+}
+.para2{
+    display: flex;
+}
+.english{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    border: 0.8px solid gray;
+}
+.p2{
+    width: 100px;;
+    height: 44px;
+    margin-top: 10px;
+}
+.div1{
+    display: flex;
+    width: 100%;
+}
+.para1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.p{
+    width: 153px;
+    height: 16px;
+    padding-right: 40px;
+}
+.content3{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.content2{
+    width: 100%;
+    font-size: 12px;
+    color: rgb(160, 157, 157);
+}
+.discrib{
+    margin-top: 50px;
+}
+.new-netflix{
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.new{
+    color: gray;
+}
+.help{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+    padding-left: 39px;
+}
+.Remember{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 30px;
+    color: rgb(199, 197, 197);
+    
+    font-size: 12px;
+}
+.sign-in{
+    color: white;
+}
+.content{
+
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    color: whitesmoke;
+    width: 100%;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    background-color: black;
+    position: absolute;
+    border-radius: 15px;
+    bottom: 70px;
+    color: white;
+    opacity: 100%;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1125px;
+    background-image: url('./IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: red;
+    margin-top: 20px;
+    border: 0.5px solid red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 80px;
+    position: absolute;
+    width: 70%;
+    height: 350px;
+    padding: 40px;
+    opacity: 80%;
+    border-radius: 10px;
+    gap: 20px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+::placeholder{
+    color: whitesmoke;
+    padding-left: 20px;
+}
+.dd{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    border: 0.5px solid black;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    opacity: 100%;
+}
+.down{
+    width: 100%;
+    height: 440px ;
+    background-color: black;
+    opacity:83%;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    
+}
+@media screen and (max-width:480px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .logo{
+        width: 100%;
+    }
+    .image{
+        width: 200px;
+        
+    }
+    .para2{
+        display: flex;
+    }
+    .english{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+        border: 0.8px solid gray;
+    }
+    .p2{
+        width: 100px;;
+        height: 44px;
+        margin-top: 10px;
+    }
+    .div1{
+        display: flex;
+        width: 100%;
+    }
+    .para1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .p{
+        width: 153px;
+        height: 16px;
+        padding-right: 40px;
+    }
+    .content3{
+        width: 80%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .content2{
+        width: 100%;
+        font-size: 12px;
+        color: rgb(160, 157, 157);
+    }
+    .discrib{
+        margin-top: 50px;
+    }
+    .new-netflix{
+        font-size: 14px;
+        display: flex;
+        width: 100%;
+        gap: 5px;
+        margin-bottom: 15px;
+    }
+    .new{
+        color: gray;
+    }
+    .help{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 50%;
+        padding-left: 39px;
+    }
+    .Remember{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-right: 30px;
+        color: rgb(199, 197, 197);
+        
+        font-size: 12px;
+    }
+    .sign-in{
+        color: white;
+    }
+    .content{
+    
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        color: whitesmoke;
+        width: 100%;
+    }
+    .form-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 550px;
+        background-color: black;
+        position: absolute;
+        border-radius: 15px;
+        bottom: 70px;
+        color: white;
+        opacity: 100%;
+    }
+    body{
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 1125px;
+        background-image: none;
+        background-color: black;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 5px;
+        background-color: red;
+        margin-top: 20px;
+        border: 0.5px solid red;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-bottom: 80px;
+        position: absolute;
+        width: 70%;
+        height: 350px;
+        padding: 40px;
+        opacity: 80%;
+        border-radius: 10px;
+        gap: 20px;
+    }
+    .inputs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    ::placeholder{
+        color: whitesmoke;
+        padding-left: 20px;
+    }
+    .dd{
+        width: 100%;
+        height: 45px;
+        border-radius: 5px;
+        background-color: rgb(63, 62, 62);
+        color: white;
+        border: 0.5px solid black;
+    }
+    .top{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 800px;
+        position: relative;
+        opacity: 100%;
+    }
+    .down{
+        width: 480px;
+        height: 440px ;
+        background-color: black;
+        opacity:83%;
+        color: gray;
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        
+    }
+}
