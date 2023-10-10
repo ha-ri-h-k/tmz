@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box" id = 'box1'>
+        <p id="para">no color</p>
+    </div>
+    <div class="colors">
+        <div class="color1 aa" onclick="bluefill()"></div>
+        <div class="color2 aa" onclick="redfill()"></div>
+        <div class="color3 aa" onclick="greenfill()"></div>
+        <div class="color4 aa" onclick="pinkfill()"></div>
+        <div class="color5 aa" onclick="skybluefill()"></div>
+    </div>
+    <div>
+        <button id="hide" onclick="hide()">hide</button>
+        <button id="show" onclick="show()">show</button>
+    </div>
+
+</body>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .box{
+        width: 300px;
+        height: 500px;
+        border: 5px solid blue;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aa{
+        width: 80px;
+        height: 20px;
+
+    }
+    .color1{
+        background-color: blue;
+    }
+    .color2{
+        background-color: red;
+    }
+    .color3{
+        background-color: greenyellow;
+    }
+    .color4{
+        background-color: pink;
+    }
+    .color5{
+        background-color: skyblue;
+    }
+    .colors{
+        display: flex;
+        gap: 5px;
+    }
+    button{
+        width: 80px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1200px;
+        gap: 10px;
+    }
+</style>
+<script>
+    function bluefill()
+    {
+        a = document.getElementById('box1')
+        a.style.backgroundColor='blue'
+        a.innerHTML='Blue'
+    }function redfill()
+    {
+        a = document.getElementById('box1')
+        a.style.backgroundColor='red'
+        a.innerHTML='Red'
+    }function greenfill()
+    {
+        a = document.getElementById('box1')
+        a.style.backgroundColor='green'
+        a.innerHTML='Green'
+    }function pinkfill()
+    {
+        a = document.getElementById('box1')
+        a.style.backgroundColor='pink'
+        a.innerHTML='Pink'
+    }function skybluefill()
+    {
+        a = document.getElementById('box1')
+        a.style.backgroundColor='skyblue'
+        a.innerHTML='Skyblue'
+    }
+    function hide()
+    {
+        a = document.getElementById('box1')
+        a.style.display='none'
+    }function show()
+    {
+        a = document.getElementById('box1')
+        a.style.display='flex'
+    }
+
+</script>
+</html>

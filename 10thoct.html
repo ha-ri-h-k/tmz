@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">Hello</p>
+    <button onclick="clickd()">
+        Click on
+    </button>
+    <p id="note">welcoming all to the page</p>
+    <div class="dib" onclick="changed()">change</div>
+    <div class="dib" onclick="revert()">Revert</div>
+
+</body>
+<style>
+    #para{
+        color: red;
+        font-family: sans-serif;
+    }
+</style>
+<script>
+    function clickd(){
+        document.getElementById('para').innerHTML='Welcome'
+        document.getElementById('para').style.color='green'
+    }
+    function changed()
+    {
+        a = document.getElementById('note')
+        document.getElementById('note').innerHTML='bye bye'
+        document.getElementById('note').style.backgroundColor='yellow'
+        a.style.color='red'
+    }
+    function revert()
+    {
+        document.getElementById('note').innerHTML='Welcoming all to the page'
+    }
+</script>
+</html>
