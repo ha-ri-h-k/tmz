@@ -152,3 +152,52 @@ a:hover {
     transition: transform 450ms;
 
 }
+.top10{
+    width: 228.500px;
+    max-height: 168px ;
+    display: flex;
+    position: relative;
+    
+    
+
+}
+.top-10{
+    display: flex;
+    gap: 80px;
+}
+.number{
+    width: 50%;
+    max-height: 168px;
+    display: flex;
+    max-height: 168px;
+    align-items: center;
+    /* justify-content: flex-end; */
+    /* position: absolute; */
+}
+.topimg{
+    width: 50%;
+    position: absolute;
+    left: 85px;
+    max-height: 168px;
+    transition: transform 450ms;
+}
+.tenth{
+    position: absolute;
+    left: 190px;
+
+}
+h1{
+    font-size: 215px;
+  -webkit-text-fill-color: #111;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color:gray;
+  font-family: sans-serif;
+
+}
+.topimg img{
+    width: 115px;
+    max-height: 163px;
+}
+.topimg:hover{
+    transform: scale(1.08);
+}
